@@ -94,12 +94,6 @@ We showed him our exploit and he immediately spotted the issue. It turns out the
 
 We then refactored the hack to acquire a handle via `WFSOpen` and passed it to `WFSExecute`. We were still getting a message box.
 
-DeviceInstall restrictions? What are those?
-
-It turns out [DeviceInstall restrictions](https://admx.help/HKLM/Software/Policies/Microsoft/Windows/DeviceInstall/Restrictions) allow Windows administrators to black and white list hardware devices and their drivers from being loaded/activated when plugged in.
-
-From the VNC session, we broke out of the full-screen browser by hitting `Ctrl-Shift-Esc` to bring up the task manager and reveal the explorer shell. From the task manager, we can run `regedit` and explore the registry keys mentioned in the link above.
-
 We were (once again) _SO_ ready to jackpot the ATM.
 
 We walked up to it, plugged in the stick and watched it do its thing while doing our movie-esque hacking dance. But then something totally unexpected happened **AGAIN**.
