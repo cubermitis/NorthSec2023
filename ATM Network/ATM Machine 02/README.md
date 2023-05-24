@@ -65,7 +65,7 @@ We were getting agitated by this point and running out of options, so we went fo
 
 The code for the Digispark controller can be found in the `Digispark` folder.
 
-The pysical ATM's kiosk application and interface would reset itself every 2 minutes, so we only had 2 minutes to perform the hack. Typing out the payload from the ducky takes time. We ended up devising a 2-person workflow where 1 person would be queuing up the payload stage flashing in Arduino IDE on the laptop while the other one would transfer the microcontroller back and forth between the ATM and the laptop. It went something like:
+The physical ATM's kiosk application and interface would reset itself every 2 minutes, so we only had 2 minutes to perform the hack. Typing out the payload from the ducky takes time. We ended up devising a 2-person workflow where 1 person would be queuing up the payload stage flashing in Arduino IDE on the laptop while the other one would transfer the microcontroller back and forth between the ATM and the laptop. It went something like:
 
 1. Plug the microcontroller into the laptop
 2. Flash part 1 of the payload onto the microcontroller
@@ -76,7 +76,7 @@ The pysical ATM's kiosk application and interface would reset itself every 2 min
 7. ???
 8. PROFIT
 
-This whole workflow is what make our hack so epic ans suspenseful, getting it described as "straight out of a movie" by event organizers who were watching us iterate on the process.
+This whole workflow is what made our hack so epic and suspenseful, getting it described as "straight out of a movie" by event organizers who were watching us iterate on the process.
 
 We were (once again) _SO_ ready to jackpot the ATM.
 
@@ -110,7 +110,7 @@ And then it fucking _**HAPPENED**_!
 
 Money came flying out the ATM cash slot and the audience was cheering!
 
-Watch the video of the excitment [here](https://twitter.com/eltdude/status/1660774864901361664)!
+Watch the video of the excitement [here](https://twitter.com/eltdude/status/1660774864901361664)!
 
 The last step involved placing the bills under a UV light to reveal the flag.
 
